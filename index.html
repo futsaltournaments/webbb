@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>FUTSAL TOURNAMENTS</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>FUTSAL <span class="txtRojo">TOURNAMENTS</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Información</a>
+                <a href="#servicios" onclick="seleccionar()">Jugadores</a>
+                <a href="#comodidades" onclick="seleccionar()">Equipos</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+                <a href="#equipo" onclick="seleccionar()">Partidos</a>
+                <a href="#contacto" onclick="seleccionar()">Registro</a>
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>CREE EN <span class="txtRojo">GRANDE</span></h2>
+                <p>Cuanto más difícil es la victoria, mayor es la felicidad de ganar</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.INICIO
+                </div>
+                <div class="opcion">
+                    02.INFORMACIÓN
+                </div>
+                <div class="opcion">
+                    03.JUGADORES
+                </div>
+                <div class="opcion">
+                    04.GALERÍA
+                </div>
+                <div class="opcion">
+                    05.PARTIDOS
+                </div>
+                <div class="opcion">
+                    06.REGISTRO
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/cole1.jpg" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">CONOCE NUESTRO COLEGIO</span>
+                        <h2>INFORMACIÓN</h2>
+                    </div>
+                </div>
+                <p class="p-especial">"Una persona vale más que un mundo". Santa María Eufrasia</p>
+                <p>El Colegio Inglés Católico (CIC) es una obra de la Congregación de Nuestra Señora de la Caridad del Buen Pastor, cuya trayectoria lleva casi 130 años en la labor educativa. Nuestra misión está inspirada en el carisma y pedagogía del Buen Pastor. De igual manera, busca crear espacios recreativos y de formación deportiva para sus estudiantes realizando cada año un campeonato de futsal interno dentro de la Unidad Educativa, en el coliseo “KEMEL NEMER BITAR”, denominado así por el ilustre Kemel Nemer Bitar “Camilo”, maestro y entrenador de voleibol.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">VIVE LA PASIÓN</span> Y ALCANZA LA GRANDEZA
+                </span>
+                <h2>LA OBSESIÓN <span class="txtRojo">VENCE</span> AL TALENTO</h2>
+            </div>
+            <div class="col2">
+                <button><a href="https://www.inglescatolico.bo/">PAGINA WEB CIC</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">CONOCE A NUESTRAS ESTRELLAS</span>
+                            <h2>JUGADORES</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">"Un ganador nunca deja de intentarlo". Tom Landry</p>
+                    <p>Contempla a los verdaderos protagonistas del juego, los jugadores, aquellos que nos hacen vibrar con cada jugada, que hacen que nos enamoremis cada vez más de este deporte y que nos inspiran con su magia dentro de la cancha. Los jugadores son las grandes estrellas del juego, ellos hacen posible que el juego pueda existir. En este apartado encontrarás a los jugadores más destacados del campoenato, basándonos en sus goles, asistencias y contribuciones de gol (G/A/CG).</p>
+                </div>
+                <div class="col">
+                    <img src="img/messi1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-running"></i>
+                        <h3><span class="txtRojo">Angel</span> Mejillones</h3>
+                        <p>(12 Goles, 4 Asistencias, 16 Contribuciones de Gol)</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-person-running"></i>
+                        <h3><span class="txtRojo">Alan </span> Quispe</h3>
+                        <p>(10 Goles, 3 Asistencias, 13 Contribuciones de Gol)</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-person-running"></i>
+                        <h3><span class="txtRojo">Sebastian </span> Escobar</h3>
+                        <p>(7 Goles, 5 Asistencias, 12 Contribuciones de Gol)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-running"></i>
+                        <h3><span class="txtRojo">Fabian </span> Vera</h3>
+                        <p>(10 Goles, 2 Asistencias, 12 Contribuciones de Gol)</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-person-running"></i>
+                        <h3><span class="txtRojo">Ciro </span> </h3>
+                        <p>(6 Goles, 5 Asistencias, 11 Contribuciones de Gol)</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-person-running"></i>
+                        <h3><span class="txtRojo">Yandel </span> Adiel</h3>
+                        <p>(4 Goles, 5 Asistencias, 9 Contribuciones de Gol)</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECCION COMODIDADES -->
+    <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <img src="img/cole4.jpg" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        03
+                    </div>
+                    <div class="info">
+                        <span class="frase">ALIENTA CON PASIÓN</span>
+                        <h2>EQUIPOS</h2>
+                    </div>
+                </div>
+                <p class="p-especial">“Ningún jugador es tan bueno como todos juntos”. Alfredo Di Stéfano</p>
+                <ul>
+                    <li><span>6TO "A" ESTADOS UNIDOS</span> - Jugadores: Angel Mejillones, Sebastian Escobar, Matías Vildozo, Ian Coronado, Cesar Matta, Andrew Aruquipa, Leandro Mayta, José Pantoja, Adrian Donoso, Edwin Mamani</li>
+                    <li><span>6TO "B" PUERTO RICO</span> - Jugadores: Oliver Choque, Santiago Pacheco, Rafael Contreras, Joaquin Velarde, Jaleb Gutiérrez</li>
+                    <li><span>6TO "C" PERÚ</span> - Jugadores: Alan Quispe, Adrian Condori, Gabriel Claure, Benjamin Vila, Missael Chuquimia, Cristian Limpias, Mauro Pérez</li>
+                    <li><span>5TO "A" HONDURAS</span> - Listado de Jugadores</li>
+                    <li><span>5TO "B" URUGUAY</span> - Listado de Jugadores</li>
+                    <li><span>5TO "C" COSTA RICA</span> - Listado de Jugadores</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase">REVIVE LOS MEJORES MOMENTOS</span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/a1.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/a2.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/a3.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/a5.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/a4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/a6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase">SIGUE A TU EQUIPO FAVORITO</span>
+                    <h2>PARTIDOS</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/e1.png" alt="">
+                    <div class="info">
+                        <h2>Jueves 3 de octubre / 15:00</h2>
+                        <p>DAMAS</p>
+                        <p>5TO "A" HONDURAS vs 6TO "B" PUERTO RICO</p>
+                        <p>----------------------------------</p>
+                        <h2>Jueves 3 de octubre / 16:30</h2>
+                        <p>VARONES</p>
+                        <p>5TO "A" HONDURAS vs 6TO "B" PUERTO RICO</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/e2.png" alt="">
+                    <div class="info">
+                        <h2>Jueves 3 de octubre / 15:30</h2>
+                        <p>DAMAS</p>
+                        <p>6TO "A" ESTADOS UNIDOS vs 5TO "B" URUGUAY</p>
+                        <p>----------------------------------</p>
+                        <h2>Jueves 3 de octubre / 17:00</h2>
+                        <p>VARONES</p>
+                        <p>6TO "A" ESTADOS UNIDOS vs 5TO "B" URUGUAY</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/e3.png" alt="">
+                    <div class="info">
+                        <h2>Jueves 3 de octubre / 16:00</h2>
+                        <p>DAMAS</p>
+                        <p>5TO "C" COSTA RICA vs 6TO "C" PERÚ</p>
+                        <p>----------------------------------</p>
+                        <h2>Jueves 3 de octubre / 17:30</h2>
+                        <p>VARONES</p>
+                        <p>5TO "C" COSTA RICA vs 6TO "C" PERÚ</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <form action="https://formsubmit.co/ csebasescobarrioja@gmail.com " method="POST" >
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase">INSCRÍBETE Y FORMA PARTE </span>
+                    <h2>REGISTRO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input name="curso" type="text" placeholder="Curso">
+                </div>
+                <div class="col">
+                    <input name="equipo" type="text" placeholder="Nombre del Equipo">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="jugadores" id="" cols="30" rows="10" placeholder="Listado y dorsal de los jugadores"></textarea>
+                <button>Enviar </button>
+            </div>
+        
+        
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Murillo 658, La Paz
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    73591270 - 69927450
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Sábado, 8:00h - 24:00h
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>2024 - <span class="txtRojo">FUTSAL TOURNAMENTS</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
